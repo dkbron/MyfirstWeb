@@ -3,7 +3,7 @@
 {% load staticfiles %}
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<title>天天生鲜-注册</title>
+	<title>注册</title>
 	<link rel="stylesheet" type="text/css" href={% static 'css/reset.css' %}>
 	<link rel="stylesheet" type="text/css" href={% static 'css/main.css' %}>
 	<script type="text/javascript" src={% static 'js/jquery-1.12.4.min.js' %}></script>
@@ -12,15 +12,14 @@
 <body>
 	<div class="register_con">
 		<div class="l_con fl">
-			<a class="reg_logo"><img src={% static 'images/logo02.png' %}></a>
-			<div class="reg_slogan">足不出户  ·  新鲜每一天</div>
-			<div class="reg_banner"></div>
+			<a class="reg_logo"><img src={% static 'images/dm2.jpg' %}></a>
+			<div class="reg_slogan">菜鸡不是原罪</div>
 		</div>
 
 		<div class="r_con fr">
 			<div class="reg_title clearfix">
 				<h1>用户注册</h1>
-				<a href="#">登录</a>
+				<a href="http://127.0.0.1:8000/user/login">登录</a>
 			</div>
 			<div class="reg_form clearfix">
 				<form method="post" action="/user/register">
@@ -48,7 +47,7 @@
 					</li>
 					<li class="agreement">
 						<input type="checkbox" name="allow" id="allow" checked="checked">
-						<label>同意”天天生鲜用户使用协议“</label>
+						<label>同意”用户使用协议“</label>
 						<span class="error_tip2">提示信息</span>
 					</li>
 					<li class="reg_sub">
@@ -63,18 +62,8 @@
 
 	</div>
 
-	<div class="footer no-mp">
-		<div class="foot_link">
-			<a href="#">关于我们</a>
-			<span>|</span>
-			<a href="#">联系我们</a>
-			<span>|</span>
-			<a href="#">招聘人才</a>
-			<span>|</span>
-			<a href="#">友情链接</a>		
-		</div>
-		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
-		<p>电话：010-****888    京ICP备*******8号</p>
+    <div class="footer no-mp">
+		<p>dkborn</p>
 	</div>
 	
 </body>
